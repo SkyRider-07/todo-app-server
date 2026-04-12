@@ -5,3 +5,7 @@ export interface RegistrationRequest {
     email: string;
     password: string;
 }
+export interface HashRequest {
+    password: string,
+    salt: number,
+}
